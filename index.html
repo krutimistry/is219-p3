@@ -22,7 +22,7 @@
 </head>
 
   <body>
-	<div class="container">
+	<div class="container" id="vue_app">
 
 	    <div class="header">
 		    
@@ -61,9 +61,9 @@
 
 	    <div class="footer">
 	      <div class="container">
-			<a id="github" class="btn btn-lg btn-warning">
-				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{owner}} {{github}}
-	  		</a>
+			  <a id="github" class="btn btn-lg btn-warning" v-bind:href="github">
+				  <i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{ owner }}
+			  </a>
 	      </div>
 	    </div>
 	</div>
