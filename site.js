@@ -84,6 +84,14 @@ const vue_app = new Vue({
               }
               return ''.concat(month, ' ', day, ', ', year);
           },
+          posterClick: function(index) {
+              if (this.movies[index].posterindex < (this.movies[index].posters.length - 1)){
+                  this.movies[index].posterindex += 1;
+              }
+              else{
+                  this.movies[index].posterindex = 0;
+              }
+          },
           like: function(index){
               this.movies[index].likes += 1;
           },
@@ -93,6 +101,7 @@ const vue_app = new Vue({
           timeText: function(minutes){
               return Math.floor(minutes / 60) + 'h ' + minutes % 60 + 'm';
           }
+
       }
 })
 	
