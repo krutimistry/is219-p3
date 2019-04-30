@@ -68,5 +68,48 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Great Gatsby",
+            "iscore": 7.3,
+            "rating": "PG-13",
+            "runtime": 123,
+            "released": [2013, 5, 10],
+            "country": "USA",
+            "posters": ["img/gatsby.jpg", "img/gatsby2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1343092/?ref_=nv_sr_1?ref_=nv_sr_1",
+            "website": "https://www.warnerbros.com/movies/great-gatsby/",
+            "likes": 567,
+            "dislikes": 105,
+            "posterindex": 0
+      },
+            {
+            "title": "Aladdin",
+            "iscore": 8.0,
+            "rating": "G",
+            "runtime": 120,
+            "released": [1992, 11, 25],
+            "country": "USA",
+            "posters": ["img/aladdin.jpg", "img/aladdin2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0103639/?ref_=fn_al_tt_2",
+            "website": "https://movies.disney.com/aladdin",
+            "likes": 316,
+            "dislikes": 94,
+            "posterindex": 0
+      },
+            {
+            "title": "The Avengers",
+            "iscore": 8.9,
+            "rating": "PG-13",
+            "runtime": 143,
+            "released": [2012, 5, 4],
+            "country": "USA",
+            "posters": ["img/avengers.jpg", "img/avengers2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0848228/?ref_=fn_al_tt_1",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
       }
+
 ]
